@@ -1,13 +1,8 @@
 {
-  "headers": [
+  "rewrites": [
     {
       "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "https://wallet.dijets.io"
-        }
-      ]
+      "destination": "/index.html"
     }
   ]
 }
