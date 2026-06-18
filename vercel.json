@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://whitelist-silk.vercel.app/:path*",
+      "source": "/",
+      "destination": "https://whitelist-silk.vercel.app/",
       "permanent": false
     }
   ]
